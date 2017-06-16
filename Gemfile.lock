@@ -1,12 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    equatable (0.5.0)
+    pastel (0.7.1)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
+    showterm (0.5.0)
+    tty-color (0.4.2)
     tty-spinner (0.4.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  pastel
+  showterm
   tty-spinner
 
 BUNDLED WITH
