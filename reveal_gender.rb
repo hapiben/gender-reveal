@@ -31,7 +31,7 @@ class RevealGender
       end
     end
 
-    spinner.success(pastel.cyan(File.read('boy.txt')))
+    spinner.success(pastel.blue(File.read('boy.txt')))
   end
 end
 
