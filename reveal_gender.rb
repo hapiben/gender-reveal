@@ -9,10 +9,10 @@ class RevealGender
     'Gathering requirements',
     'Unpacking baby components',
     'Generating baby gender',
-    'Running all tests for baby',
+    'Running all tests',
     'All tests PASSED!',
-    'Deploying to production',
-    'Finished in 22.53 seconds (baby gender took 20 weeks to determine)'
+    'Deploying. Please wait',
+    'Finished in 22.53 seconds (baby gender took 19 weeks and 6 days to determine)'
   ].freeze
 
   def call
@@ -23,7 +23,7 @@ class RevealGender
       spinner.update(msg: message)
 
       if MESSAGES.last != message
-        21.times do
+        17.times do
           spinner.spin
           sleep(0.1)
         end
