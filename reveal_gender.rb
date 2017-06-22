@@ -16,6 +16,7 @@ class RevealGender
   ].freeze
 
   def call
+    system('clear')
     pastel = Pastel.new
     spinner = TTY::Spinner.new("#{pastel.cyan(':spinner')} - #{pastel.yellow(':msg...')}", format: :bouncing_ball)
 
