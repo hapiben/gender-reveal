@@ -9,7 +9,7 @@ class RevealGender
     'Gathering requirements',
     'Unpacking baby components',
     'Generating baby gender',
-    'Running all tests',
+    'Running all tests for the baby',
     'All tests PASSED!',
     'Deploying. Please wait',
     'Finished in 22.53 seconds (baby gender took 19 weeks and 6 days to determine)'
